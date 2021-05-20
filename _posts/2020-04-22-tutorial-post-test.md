@@ -9,7 +9,6 @@ tags:
   - update
 ---
 
-# **To post a tutorial:**
 1. Write tutorial in markdown
 2. Locate .md file for this template in the `_posts` directory of the [CloudForest website github repository](https://github.com/TreeScaper/TreeScaper.github.io).
 3. Copy the ''front matter'' at the top of the tempate to the top of your tutorial .md.
