@@ -1,15 +1,17 @@
 ---
-title: "Tutorial 1: Example"
-date: 2019-04-18T15:34:30-04:00 #will this update auto since entering TZ in _config.yml
+title: "Post a tutorial"
+date: 20-May-2021
 categories:
-  - instructions
+  - administration
+  - community
 tags:
   - Jekyll
   - update
 ---
 
-To post a tutorial:
+# **To post a tutorial:**
 1. Write tutorial in markdown
-2. Locate .md file for this template in `/_posts` and make a copy, naming it following the same convention
-3. Update the 'front matter' above with relevant info
-4. Write tutorial content in the place of these instructions
+2. Locate .md file for this template in the `_posts` directory of the [CloudForest website github repository](https://github.com/TreeScaper/TreeScaper.github.io).
+3. Copy the ''front matter'' at the top of the tempate to the top of your tutorial .md.
+4. Update the title, date, categories and other relevant info.
+5. Create a pull request to add your file to the `_posts` directory.
