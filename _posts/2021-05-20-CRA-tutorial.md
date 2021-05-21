@@ -35,7 +35,7 @@ After running the command, you will be prompted for your CRA credentials.
 ##### 5. Open CloudForest
 CloudForest runs as a web server within the Galaxy Framework. ~20 seconds after the installation command finsihes, navigate to http://localhost:8080 within your browser to access CloudForest.
 
-***NOTE:The remaining steps of the tutorial will carry out a sample analysis to conduct bootstrapping via IQTree for a set of alingments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)***
+***NOTE:The remaining steps of the tutorial will carry out a sample analysis to conduct bootstrapping via IQTree for a set of alignments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)***
 
 ##### 6. Upload Data
 The lefthand side of the Galaxy interface is the Tool Panel. After you download and decompress the sample data, follow these steps to upload the individual alignments:
