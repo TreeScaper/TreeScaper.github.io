@@ -20,6 +20,7 @@ Registration can be completed [here](https://www.phylo.org/restusers/register.ac
 Once Docker is installed and is running in the background, navigate to your preferred directory from a Unix command line and run the following commands:
 >$ git clone https://github.com/TreeScaper/CloudforestDocker.git
 >$ cd CloudforestDocker
+>
 ##### 4. Run CloudForest
 From within the CloudForestDocker directory, run the following command:
 >$ ./run.sh --tag latest
@@ -34,7 +35,7 @@ CloudForest runs as a web server within the Galaxy Framework. ~20 seconds after 
 
 ***NOTE:The remaining steps of the tutorial will carry out a sample analysis to conduct bootstrapping via IQTree for a set of alingments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)***
 
-###### 6. Upload Data
+##### 6. Upload Data
 The lefthand side of the Galaxy interface is the Tool Panel. After you download and decompress the sample data, follow these steps to upload the individual alignments:
 - Expand the **Get Data** tab
 - Open the **Upload File** tool
