@@ -20,7 +20,8 @@ Registration can be completed [here](https://www.phylo.org/restusers/register.ac
 Once Docker is installed and is running in the background, navigate to your preferred directory from a Unix command line and run the following commands:
 >$ git clone https://github.com/TreeScaper/CloudforestDocker.git  
 >$ cd CloudforestDocker  
->
+
+
 ##### 4. Run CloudForest
 From within the CloudForestDocker directory, run the following command:
 >$ ./run.sh --tag latest
