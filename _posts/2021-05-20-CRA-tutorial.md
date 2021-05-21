@@ -14,28 +14,30 @@ Installation directions vary by operating system. Detailed instructions can be f
 ##### 2. Create a Cipres Rest API account
 Registration can be completed [here](https://www.phylo.org/restusers/register.action). After your account is created, no further account configuration is necessary. *The credentials you create in this step will be used by CloudForest for remote job submission.*
 
-***NOTE: Steps 3-4 are necessary in the Beta release of CloudForest, but will not be present in the final release. Instead, CloudForest will be packaged for easy installation and running***
+***NOTE:*** *Steps 3-4 are necessary in the Beta release of CloudForest, but will not be present in the final release. Instead, CloudForest will be packaged for easy installation and running*
 
 ##### 3. Clone and Navigate to the CloudForestDocker repository
-Once Docker is installed and is running in the background, navigate to your preferred directory from a Unix command line and run the following commands:
->$ git clone https://github.com/TreeScaper/CloudforestDocker.git  
->$ cd CloudforestDocker  
-
+Once Docker is installed and is running in the background, navigate to your preferred directory from a Unix command line and run the following commands:  
+```
+$ git clone https://github.com/TreeScaper/CloudforestDocker.git  
+$ cd CloudforestDocker  
+```
 
 ##### 4. Run CloudForest
-From within the CloudForestDocker directory, run the following command:
->$ ./run.sh --tag latest
-
+From within the CloudForestDocker directory, run the following command:  
+```
+$ ./run.sh --tag latest
+```
 
 - This will pull the beta image of CloudForest from the public Docker registry, and start it in a container. Inside the container, a web server will start that houses CloudForest.
 After running the command, you will be prompted for your CRA credentials.
 
-***NOTE: Because this step passes information to your machine’s Docker application unencrypted, this should only be performed on a personal computer. Solutions are in the works for a fully secure method of providing third-party credentials to the framework underlying CloudForest.***
+***NOTE:*** *Because this step passes information to your machine’s Docker application unencrypted, this should only be performed on a personal computer. Solutions are in the works for a fully secure method of providing third-party credentials to the framework underlying CloudForest.*
 
 ##### 5. Open CloudForest
 CloudForest runs as a web server within the Galaxy Framework. ~20 seconds after the installation command finsihes, navigate to http://localhost:8080 within your browser to access CloudForest.
 
-***NOTE:The remaining steps of the tutorial will carry out a sample analysis to conduct bootstrapping via IQTree for a set of alignments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)***
+***NOTE:*** *The remaining steps of the tutorial will carry out a sample analysis to conduct bootstrapping via IQTree for a set of alignments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)*
 
 ##### 6. Upload Data
 The lefthand side of the Galaxy interface is the Tool Panel. After you download and decompress the sample data, follow these steps to upload the individual alignments:
