@@ -1,5 +1,5 @@
 ---
-title: "Install CloudForest and infer trees"
+title: "Installing CloudForest, and utilizing the Cipres Rest API to infer trees"
 date: 20-May-2021
 categories:
   - getting started
@@ -7,7 +7,6 @@ tags:
   - Jekyll
   - update
 ---
-#### Installing CloudForest, and utilizing the Cipres Rest API to infer trees
 
 ##### 1. Install and run Docker
 Installation directions vary by operating system. Detailed instructions can be found [here](https://docs.docker.com/get-docker/). Once downloaded and run, Docker runs in the background.
