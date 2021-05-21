@@ -95,7 +95,7 @@ defaults:
       path: "_posts"
       type: posts
     values:
-      layout: single
+      layout: splash
       author_profile: false
       read_time: false
       comments: false
