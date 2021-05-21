@@ -25,7 +25,8 @@ Once Docker is installed and is running in the background, navigate to your pref
 ##### 4. Run CloudForest
 From within the CloudForestDocker directory, run the following command:
 >$ ./run.sh --tag latest
->
+
+
 - This will pull the beta image of CloudForest from the public Docker registry, and start it in a container. Inside the container, a web server will start that houses CloudForest.
 After running the command, you will be prompted for your CRA credentials.
 
