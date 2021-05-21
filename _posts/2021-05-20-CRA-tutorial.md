@@ -75,7 +75,7 @@ Once all optional parameters are tuned to your liking, select **Execute** to sub
 - **Bootstrap Results**: File with a list mapping input files to their corresponding bootstrap consensus tree. If a job has failed, in place of its tree will be the string "NO_OUTPUT".
 - **Bootstrap Trees**: File containing only the trees from successful jobs in newick format.
 
-Output files be used within CloudForest to perform additional analyses, or they can be downloaded for use in third party programs. To download a file, select the item in the history and press the **Download** button (pictured below).
+Output files can be used within CloudForest to perform additional analyses, or they can be downloaded for use in third party programs. To download a file, select the item in the history and press the **Download** button (pictured below).
     <img src="https://i.imgur.com/sGYAyGW.png"/>
 
 From here, you can interact with the generated trees in any number of ways! Further tutorials will provide insight into how to perform exciting new analyses on sets of trees within CloudForest, such as Community Detection, Bipartition Covariance Analysis, and NLDR!
