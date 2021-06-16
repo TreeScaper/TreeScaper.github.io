@@ -2,7 +2,7 @@
 title: "Post a tutorial"
 date: 20-May-2021
 categories:
-  - community
+  - Community
 tags:
   - Jekyll
   - update
