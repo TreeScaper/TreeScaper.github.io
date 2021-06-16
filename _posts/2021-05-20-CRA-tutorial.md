@@ -2,7 +2,7 @@
 title: "Installing CloudForest, and utilizing the Cipres Rest API to infer trees"
 date: 20-May-2021
 categories:
-  - getting started
+  - Getting Started
 tags:
   - Jekyll
   - update
