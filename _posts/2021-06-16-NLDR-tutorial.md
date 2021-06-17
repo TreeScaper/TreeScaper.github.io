@@ -8,7 +8,7 @@ tags:
   - update
 ---
 
-Once you have inferred a set of trees, either using the Cipres Rest API or a third party program, CloudForest can be used to perform several different analyses that will allow you to learn more about your trees. In this tutorial, we will walk through the steps necessary to visualize your trees in treespace suing Nonlinear Dimensionality Reduction (NLDR) within CloudForest. Download the **sample.trees** file [here](https://github.com/TreeScaper/TreeScaper.github.io/tree/master/sample_data) to follow along through this tutorial.  
+Once you have inferred a set of trees, either using the Cipres Rest API or a third party program, CloudForest can be used to perform several different analyses that will allow you to learn more about your trees. In this tutorial, we will walk through the steps necessary to visualize your trees in treespace using Nonlinear Dimensionality Reduction (NLDR) within CloudForest. Download the **sample.trees** file [here](https://github.com/TreeScaper/TreeScaper.github.io/tree/master/sample_data) to follow along through this tutorial.  
   
 *For details on installing and running CloudForest, visit the [previous tutorial](https://treescaper.github.io/getting%20started/CRA-tutorial/).*
   
