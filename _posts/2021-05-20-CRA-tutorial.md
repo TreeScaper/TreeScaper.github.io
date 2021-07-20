@@ -1,6 +1,6 @@
 ---
 title: "Installing CloudForest, and utilizing the Cipres Rest API to infer trees"
-date: 21-May-2021
+date: 20-May-2021
 categories:
   - Getting Started
 tags:
