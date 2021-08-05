@@ -6,7 +6,10 @@ categories:
 tags:
   - Jekyll
   - update
+youtubeId: s6_5Eyc0G6g
 ---
+{% include youtubePlayer.html id=page.youtubeId %}
+  
 
 Once you have inferred a set of trees, either using the Cipres Rest API or a third party program, CloudForest can be used to perform several different analyses that will allow you to learn more about your trees. In this tutorial, we will walk through the steps necessary to visualize your trees in treespace using Nonlinear Dimensionality Reduction (NLDR) within CloudForest. Download the **sample.trees** file [here](https://github.com/TreeScaper/TreeScaper.github.io/tree/master/sample_data) to follow along through this tutorial.  
   
