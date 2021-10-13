@@ -38,6 +38,6 @@ Brown JM, Mount GG, Gallivan KA, Wilgenbusch JC. 2021. [The diverse applications
 
 # Funding
 
-The development of TreeScaper and CloudForest have been supported by grants from the National Science Foundation to J.C. Wilgenbusch (NSF-DBI-1262476 and DBI-1934182), K.A. Gallivan (NSF-DBI-1262476 and DBI-1934157), and J.M. Brown (NSF-DBI-1262571 and DBI-1934156).
+The development of TreeScaper and CloudForest have been supported by grants from the National Science Foundation to J.C. Wilgenbusch (DBI-1262476 and DBI-1934182), K.A. Gallivan (DBI-1262476 and DBI-1934157), and J.M. Brown (DBI-1262571 and DBI-1934156).
 
 ![NSF Logo](https://raw.githubusercontent.com/jembrown/TreeScaper.github.io/master/assets/images/nsfLogo.png)
