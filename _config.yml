@@ -60,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-#  name   : "First Lastname"
+  name   : "CloudForest"
   avatar : "/assets/images/tree-network-cartoon.png"
-#  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "CloudForest is a portable, easy-to-deploy, and reproducible computational platform for phylogenomics."
 #  links:
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
