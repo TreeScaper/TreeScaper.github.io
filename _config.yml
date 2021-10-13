@@ -59,9 +59,9 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-#author:
+author:
 #  name   : "First Lastname"
-#  avatar : "/assets/images/tree-network-cartoon.png"
+  avatar : "/assets/images/tree-network-cartoon.png"
 #  bio    : "My awesome biography constrained to a sentence or two goes here."
 #  links:
 #    - label: "Website"
@@ -79,9 +79,9 @@ plugins:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "fill in"
+    # - label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+    #  url: "fill in"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/TreeScaper"
