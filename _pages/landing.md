@@ -22,7 +22,7 @@ CloudForest is built on the [Galaxy](https://galaxyproject.org) platform, which 
 
 # Relationship to TreeScaper
 
-We previously developed TreeScaper (Huang et al., 2016), which plays a critical role in CloudForest workflows. TreeScaper is used to create low-dimensional visualizations of tree space, estimate the intrinsic dimensionality of a tree set, construct tree- and bipartition-based networks, and perform community detection on these networks. As input, TreeScaper accepts any set of phylogenetic trees created by a wide variety of phylogenetic inference programs. Data structures and results from TreeScaper analyses can be visualized in a variety of ways in CloudForest.
+We previously developed TreeScaper ([Huang et al., 2016](https://doi.org/10.1093/molbev/msw196)), which plays a critical role in CloudForest workflows. TreeScaper is used to create low-dimensional visualizations of tree space, estimate the intrinsic dimensionality of a tree set, construct tree- and bipartition-based networks, and perform community detection on these networks. As input, TreeScaper accepts any set of phylogenetic trees created by a wide variety of phylogenetic inference programs. Data structures and results from TreeScaper analyses can be visualized in a variety of ways in CloudForest.
 
 
 # What to Cite
