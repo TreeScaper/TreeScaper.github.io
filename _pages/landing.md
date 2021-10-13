@@ -13,3 +13,28 @@ CloudForest is a portable, easy-to-deploy, and reproducible computational platfo
 - Identifying species of hybrid origin
 - Community phylogenetics and biogeography
 - Sensitivity analyses (particularly for Bayesian inference)
+
+# Architecture
+
+CloudForest is built on the Galaxy platform, which allows it to integrate seamlessly with various tools for phylogenetic inference and visualization. CloudForest runs inside a self-contained, customized Docker image, making it easily portable to different operating systems and computing architectures. To reduce local computing burden, CloudForest can automatically offload analyses to publicly available computing clusters (e.g., CIPRES) and download results for further analysis. 
+
+
+# Relationship to TreeScaper
+
+We previously developed TreeScaper (Huang et al., 2016), which plays a critical role in CloudForest workflows. TreeScaper is used to create low-dimensional visualizations of tree space, estimate the intrinsic dimensionality of a tree set, construct tree- and bipartition-based networks, and perform community detection on these networks. As input, TreeScaper accepts any set of phylogenetic trees created by a wide variety of phylogenetic inference programs. Data structures and results from TreeScaper analyses can be visualized in a variety of ways in CloudForest.
+
+
+# What to Cite
+
+Wagner R, Toups BS, Deng Z, Gallivan KA, Brown JM, Wilgenbusch JC. 2021. Investigating the genomic distribution of phylogenetic signal with CloudForest. In Practice and Experience in Advanced Research Computing (PEARC '21), July 18–22, 2021, Boston, MA, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3437359.3465605 [Please cite for use of CloudForest.]
+
+Huang W, Zhou G, Marchand M, Ash JR, Morris D, Van Dooren P, Brown JM, Gallivan KA, Wilgenbusch JC. 2016. TreeScaper: visualizing and extracting phylogenetic signal from sets of trees. Molecular Biology and Evolution. 33:3314-3316. [Please cite for direct use of TreeScaper, or any analyses involving NLDR or community detection.]
+
+Wilgenbusch JC, Huang W, Gallivan KA. 2017. Visualizing phylogenetic tree landscapes. BMC Bioinformatics. 18:85. [Please cite for analyses involving NLDR visualizations of tree space.]
+
+Brown JM, Mount GG, Gallivan KA, Wilgenbusch JC. 2021. The diverse applications of tree set visualization and exploration. In Estimating Species Trees: Practical and Theoretical Aspects, 2nd edition. Eds. L. Knowles and L. Kubatko. In Press. [Please cite as general overview and potential applications of TreeScaper and CloudForest.]
+
+
+# Funding
+
+The development of TreeScaper and CloudForest have been supported by grants from the National Science Foundation to J.C. Wilgenbusch (NSF-DBI-1262476 and DBI-1934182), K.A. Gallivan (NSF-DBI-1262476 and DBI-1934157), and J.M. Brown (NSF-DBI-1262571 and DBI-1934156).
