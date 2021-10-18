@@ -1,8 +1,8 @@
 ---
 permalink: /
 title: "CloudForest"
-sidebar:
-    - image: "/assets/images/tree-network-cartoon.png"
+#sidebar:
+#    - image: "/assets/images/tree-network-cartoon.png"
 ---
 
 # What is CloudForest?
