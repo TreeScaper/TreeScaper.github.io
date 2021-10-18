@@ -114,7 +114,7 @@ defaults:
         overlay_filter: "0.5"
         overlay_image: /assets/images/unsplash-image-1.jpg
       layout: single
-      author_profile: false
+      author_profile: true
       classes: wide
 
 category_archive:
