@@ -3,7 +3,7 @@ permalink: /
 title: "CloudForest"
 author_profile: false
 sidebar:
-    - title: "Quick Links"  
+    - title: "Quick Links:"  
       image: "/assets/images/tree-network-cartoon.png"
       text: "[Getting Started](https://btoup15.github.io/getting%20started/CRA-tutorial/)"
     - text: "[Docker](https://www.docker.com/)"
