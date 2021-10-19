@@ -3,9 +3,9 @@ permalink: /
 title: "CloudForest"
 author_profile: false
 sidebar:
-    - image: "/assets/images/tree-network-cartoon.png"
-    - title: "Quick Links"
-      text: [Getting Started](https://btoup15.github.io/getting%20started/CRA-tutorial/)
+    - title: "Quick Links"  
+      image: "/assets/images/tree-network-cartoon.png"
+      text: "[Getting Started](https://btoup15.github.io/getting%20started/CRA-tutorial/)"
 ---
 
 # What is CloudForest?
