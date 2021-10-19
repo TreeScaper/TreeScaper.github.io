@@ -1,6 +1,7 @@
 ---
 permalink: /dev_guide/
 title: "Developer Guide"
+author_profile: false
 sidebar:
   nav: "dev_guide-nav"
 ---

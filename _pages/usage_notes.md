@@ -1,6 +1,7 @@
 ---
 permalink: /usage_notes/
 title: "Usage Notes"
+author_profile: false
 sidebar:
   nav: "usage_notes-nav"
 ---
