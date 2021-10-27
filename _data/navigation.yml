@@ -3,28 +3,6 @@ main:
     url: /tutorials/
   - title: "Developer Guide"
     url: /dev_guide/
-  - title: "Usage Notes"
-    url: /usage_notes/
-
-usage_notes-nav:
-  - title: Overview
-    url: /usage_notes/
-    children:
-      - title: "Getting Started"
-        url: /usage_notes/#preparing-to-run-cloudforest
-      - title: "Docker CloudForest"
-        url: /usage_notes/#running-docker-cloudforest
-  - title: Using CloudForest
-    url: /usage_notes/#using-cloudforest
-  - title: "Brief Tour"
-    url: /usage_notes/#a-brief-cloudforest-tour
-    children:
-    - title: "Workflows"
-      url: /usage_notes/#workflows
-    - title: "Inspect Data Files"
-      url: /usage_notes/#inspect-data-files
-    - title: "Visualization"
-      url: /usage_notes/#visualizations
 
 dev_guide-nav:
   - title: Overview
