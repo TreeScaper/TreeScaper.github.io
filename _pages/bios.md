@@ -7,7 +7,7 @@ author_profile: true
 # The CloudForest Team
   
 ## James Wilgenbusch  
-![](/assets/team-images/jim.png)  
+![](/assets/team-images/jim.jpg)  
 James (Jim) is responsible for the strategic direction and leadership of three major computational research areas: the Minnesota Supercomputing Institute (MSI), the University of Minnesota Informatics Institute (UMII), and U-Spatial. In this role he leads University-wide initiatives, partners with collegiate senior administrators and works with faculty and administrators to shape research computing at the University of Minnesota, ensures the excellence of existing activities, and facilitates the implementation of new programs.  Jim is also involved at a regional and national level in the promotion and development of research cyberinfrastructure and plays a variety of roles in organizations such as the Coalition for Academic Scientific Computation (CASC), the Campus Research Computing Consortium (CARCC), and the National Science Foundation’s Big Data Regional Innovation Hubs.  Jim maintains research activities in the study and implementation of models, methods and software used in phylogenetic inference and leads efforts to develop cyberinfrastructure for biological research and research and engineering in general.  
   
 ## Jeremy Brown  
