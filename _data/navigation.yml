@@ -3,6 +3,8 @@ main:
     url: /tutorials/
   - title: "Developer Guide"
     url: /dev_guide/
+  - title: "Meet the Team"
+    url: /team_bios/
 
 dev_guide-nav:
   - title: Overview
