@@ -24,7 +24,7 @@ Reid is an application developer at the Minnesota Supercomputing Institute (MSI)
   
 ## Benjamin Toups  
 ![](/assets/team-images/ben.jpg)    
-Benjamin is a PhD Candidate in the Brown Lab at Louisiana State University. He started his professional journey as an IT assistant in the Biological Sciences department at LSU while earning his bachelor's degree in Biology where he developed skills in computer systems and infrastructures. Upon completion of his degree, Benjamin combined his interests his interests in biology, computing, and literature by joining the lab of Dr. Jeremy Brown where he studies evolutionary biology using computational methods. Currently, he is focused on studying how sequence evolution models of varying complexity might contribute to gene tree variation, as well as developing software tools to further explore gene tree variation..
+Benjamin is a PhD Candidate in the Brown Lab at Louisiana State University. He started his professional journey as an IT assistant in the Biological Sciences department at LSU while earning his bachelor's degree in Biology where he developed skills in computer systems and infrastructures. Upon completion of his degree, Benjamin combined his interests in biology, computing, and literature by joining the lab of Dr. Jeremy Brown where he studies evolutionary biology using computational methods. Currently, he is focused on studying how sequence evolution models of varying complexity might contribute to gene tree variation, as well as developing software tools to further explore gene tree variation..
   
 ## Zhifeng Deng  
 ![](/assets/team-images/zhifeng.png)  
