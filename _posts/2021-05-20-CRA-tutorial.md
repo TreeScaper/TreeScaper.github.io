@@ -6,7 +6,9 @@ categories:
 tags:
   - Jekyll
   - update
+youtubeId: iKRTPDBHynw
 ---
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ##### 1. Install and run Docker
 Installation directions vary by operating system. Detailed instructions can be found [here](https://docs.docker.com/get-docker/). Once downloaded and run, Docker runs in the background.
