@@ -13,7 +13,7 @@ youtubeId: iKRTPDBHynw
 ##### 1. Install and run Docker
 Installation directions vary by operating system. Detailed instructions can be found [here](https://docs.docker.com/get-docker/). Once downloaded and run, Docker runs in the background. 
   
-***NOTE:*** *If using Windows, it is recommended to download and install a WSL 2 linux instance on your computer for easier integration with Docker upon install. More details on installing WSL 2 can be found [here](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10).  
+***NOTE:*** *If using Windows, it is recommended to download and install a WSL 2 linux instance on your computer for easier integration with Docker upon install. More details on installing WSL 2 can be found [here](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10).*  
   
 ##### 2. Create a Cipres Rest API account
 Registration can be completed [here](https://www.phylo.org/restusers/register.action). After your account is created, no further account configuration is necessary. *The credentials you create in this step will be used by CloudForest for remote job submission.*
