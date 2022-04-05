@@ -41,7 +41,7 @@ After running the command, you will be prompted for your CRA credentials.
 ##### 5. Open CloudForest
 CloudForest runs as a web server within the Galaxy Framework. ~20 seconds after the installation command finsihes, navigate to http://localhost:8080 within your browser to access CloudForest.
 
-***NOTE:*** *The remaining steps of the tutorial will carry out a sample analysis to conduct bootstrapping via IQTree for a set of alignments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)*
+***NOTE:*** *The remaining steps of the tutorial will carry out a sample analysis to conduct maximum likelihood analysis via IQTree for a set of alignments. To follow along, download the data [here](https://github.com/TreeScaper/TreeScaper.github.io/blob/master/sample_data/singhal_full.tgz)*
 
 ##### 6. Upload Data
 The lefthand side of the Galaxy interface is the Tool Panel. After you download and decompress the sample data, follow these steps to upload the individual alignments:
@@ -77,10 +77,9 @@ You may leave the **Status file output** parameter blank for now.
 Once all optional parameters are tuned to your liking, select **Execute** to submit the job. New jobs will populate the **History** panel on the right side of the screen. Each job will turn yellow upon execution, and green upon completion. If a given job fails, it will turn red. Multiple outputs will be created by this job:
 - **Parameters**: Copy of the parameters file used by TreeScaper.
 - **Job Status**: File that lists each job with fields for the input file, status, and job ID within CRA. In addition to allowing the user to investigate a job further using the CRA, this file can also be input into the tool in the event of an interruption to begin where the previous run left off.
-- **Bootstrap Results**: File with a list mapping input files to their corresponding bootstrap consensus tree. If a job has failed, in place of its tree will be the string "NO_OUTPUT".
-- **Bootstrap Trees**: File containing only the trees from successful jobs in newick format.
+- **Mapped Maximum Likelihood Trees**: File with a list mapping input files to their corresponding maximum likelihood tree. If a job has failed, in place of its tree will be the string "NO_OUTPUT".
+- **Maximum Likelihood Trees**: File containing only the trees from successful jobs in newick format.
 
 Output files can be used within CloudForest to perform additional analyses, or they can be downloaded for use in third party programs. To download a file, select the item in the history and press the **Download** button (pictured below).
-    <img src="https://i.imgur.com/sGYAyGW.png"/>
-
+<img src="../assets/images/max_likelihood_tree.png" width="300">
 From here, you can interact with the generated trees in any number of ways! Further tutorials will provide insight into how to perform exciting new analyses on sets of trees within CloudForest, such as Community Detection, Bipartition Covariance Analysis, and NLDR!
