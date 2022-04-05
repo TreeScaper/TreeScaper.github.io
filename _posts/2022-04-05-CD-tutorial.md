@@ -1,4 +1,4 @@
-—
+---
 title: "Using Community Detection to Group Trees"
 date: 04-April-2022
 categories:
@@ -6,7 +6,7 @@ categories:
 tags:
   - Jekyll
   - update
-—
+---
 
 Once you have performed an NLDR and visualized your trees in treespace, you may want to do additional analyses to find natural grouping of trees in order to identify differences in topologies or branch lengths. While using standard grouping approaches on NLDR visualizations can be useful, the results may not always be totally accurate. This is due to the way in which NLDR projects trees into a given number of dimensions. Depending on the size and number of your trees, treespace can be extremely large and complex, and often times, accurately representing all of the information in a set of tree distances requires high dimensionality. In order to project treespace into a human-visualizable two or three dimensions, NLDRs may be forced to distort the data.  
   
