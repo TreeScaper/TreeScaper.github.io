@@ -40,12 +40,12 @@ Once the jobs in the history panel are green and community detection is complete
   
 In order to find groupings with some biological meaning, we will be looking for plateaus of lambda values that result in the same community structure. These can be identified in the red **“Community Labels”** line in the Community Detection plot, similar to the following:  
   
-	<img src=”https://i.imgur.com/oOAeyxw.png”/>  
+    <img src="https://i.imgur.com/oOAeyxw.png"/>  
   
 #### 4. Community Detection using Manual Tuning  
 In some cases, community detection using automatic tuning may not have plateaus that are as clear as in the above example. To address this, we can use Manual Tuning to view the results of a specific range of parameter values in better detail. This can be useful in a scenario, such as the one pictured below, when the Community Labels plot line is not as well defined.  
   
-	<img src=”https://i.imgur.com/0ogIFd5.png”/>  
+    <img src="https://i.imgur.com/0ogIFd5.png"/>  
   
 To perform manual tuning:  
 - Navigate to the **TreeScaper-CommunityDetection** tool in the CloudForest tool panel  
