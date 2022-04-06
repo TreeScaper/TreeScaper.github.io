@@ -82,6 +82,6 @@ Once all optional parameters are tuned to your liking, select **Execute** to sub
 
 Output files can be used within CloudForest to perform additional analyses, or they can be downloaded for use in third party programs. To download a file, select the item in the history and press the **Download** button (pictured below).
 
-    <img src="../../assets/images/max_likelihood_tree.png" width="300">
+<img src="../../assets/images/max_likelihood_tree.png" width="300">
 
 From here, you can interact with the generated trees in any number of ways! Further tutorials will provide insight into how to perform exciting new analyses on sets of trees within CloudForest, such as Community Detection, Bipartition Covariance Analysis, and NLDR!
