@@ -30,7 +30,7 @@ $ cd CloudforestDocker
 ##### 4. Run CloudForest
 From within the CloudForestDocker directory, run the following command:  
 ```
-$ ./run.sh --tag latest
+$ ./run.sh --tag beta_testing
 ```
 
 - This will pull the beta image of CloudForest from the public Docker registry, and start it in a container. Inside the container, a web server will start that houses CloudForest.
