@@ -15,7 +15,7 @@ In order to avoid any distortion or artifacts of projection, we can use communit
 #### 1. Calculating an Affinity Matrix  
 Using an already-calculated distance matrix, we will calculate an affinity matrix upon which community detection will be performed. The effect of this is that trees with smaller tree-to-tree distances (more similar trees) will have larger affinities, and vice versa. Currently in CloudForest, affinity matrices can be calculated using either reciprocal or exponential transformations. Feel free to experiment and compare results with both, although limited testing suggests that reciprocal transformations seem to produce more stable results.  
 To calculate an affinity matrix:  
-- Expand the **CloudForest** header in the tool panel on the left hand sign of the interface  
+- Expand the **CloudForest** header in the tool panel on the left hand side of the interface  
 - Select **TreeScaper-Affinity**  
 - Select the appropriate distance matrix  
 - Select a transformation method (Reciprocal or Exponential)  
@@ -23,7 +23,11 @@ To calculate an affinity matrix:
   
 #### 2. Performing an Automatic Community Detection  
 A good first step in performing Community Detection is to let the algorithm automatically dictate which range of parameter values to explore.  
+  
+***NOTE:*** *Several Community Detection algorithms are available within CloudForest. While we recommend experimenting with each algorithm yourself, our testing indicates that the Configuration Null Model seems to perform fairly well with phylogenomic data*  
+  
 To perform an automatically tuned community detection:  
+  
 - In the CloudForest tool panel, select **TreeScaper-CommunityDetection**  
 - Select the appropriate affinity matrix  
 - Select a community detection model to use 
@@ -41,7 +45,11 @@ Once the jobs in the history panel are green and community detection is complete
 In order to find groupings with some biological meaning, we will be looking for plateaus of lambda values that result in the same community structure. These can be identified in the red **“Community Labels”** line in the Community Detection plot, similar to the following:
 
 <img src="https://i.imgur.com/oOAeyxw.png"/>
-
+  
+When combined with another analysis, such as NLDR projection, community detection can be a powerful tool to detect inherent structuring in treespace. Pictured below, community detection detects the natural 13 community structure in a set of trees sampled from 13 mitochondrial protein-coding genes. This represents an example where divisions between groups of trees are clear; however, community detection and NLDR can be used to detect less obvious structuring in treesets such as that found in [this](https://dl.acm.org/doi/abs/10.1145/3437359.3465605) paper.  
+  
+<img src="https://i.imgur.com/2lE5G1W.png"/>  
+  
 #### 4. Community Detection using Manual Tuning  
 In some cases, community detection using automatic tuning may not have plateaus that are as clear as in the above example. To address this, we can use Manual Tuning to view the results of a specific range of parameter values in better detail. This can be useful in a scenario, such as the one pictured below, when the Community Labels plot line is not as well defined.
 
