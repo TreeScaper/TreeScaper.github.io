@@ -1,5 +1,5 @@
 ---
-title: "Using Community Detection to Group Trees"
+title: "Finding Structured Patterns in Treespace using Community Detection"
 date: 04-April-2022
 categories:
   - Analyzing Data
