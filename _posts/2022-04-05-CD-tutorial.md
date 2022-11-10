@@ -6,8 +6,11 @@ categories:
 tags:
   - Jekyll
   - update
+youtubeId: 2cXoHdYAM-I
 ---
-
+{% include youtubePlayer.html id=page.youtubeId %}  
+  
+  
 Once you have performed an NLDR and visualized your trees in treespace, you may want to do additional analyses to find natural grouping of trees in order to identify differences in topologies or branch lengths. While using standard grouping approaches on NLDR visualizations can be useful, the results may not always be totally accurate. This is due to the way in which NLDR projects trees into a given number of dimensions. Depending on the size and number of your trees, treespace can be extremely large and complex, and often times, accurately representing all of the information in a set of tree distances requires high dimensionality. In order to project treespace into a human-visualizable two or three dimensions, NLDRs may be forced to distort the data.  
   
 In order to avoid any distortion or artifacts of projection, we can use community detection directly on the underlying network of tree-to-tree distances to ensure that we are capturing all of the information in the data. Then, we can overlay these community detection results onto an NLDR plot to visualize how the grouping of trees are represented in the projection of treespace. This tutorial will walk you through the steps involved in this process. For details on performing an NLDR on a set of trees, visit the [NLDR tutorial](https://treescaper.github.io/analyzing%20data/NLDR-tutorial/).  
