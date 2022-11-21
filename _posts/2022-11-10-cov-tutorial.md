@@ -24,7 +24,7 @@ Once the trees are input into CloudForest:
 #### 2. Visualize the Results  
 Once the analysis has completed, indicated by green items in the **History** panel, it's time to visualize the results of the bipartition covariance analysis! 
 
-***Note:*** **In order to visualize results, you must be logged in to the platform. In order to log in select ***Login or Register*** at the top of the page, and for beta purposes, login using login/pw** ***admin/admin*** 
+***Note:*** **In order to visualize results, you must be logged in to the platform. In order to log in select Login or Register at the top of the page, and for beta purposes, login using login/pw admin/admin** 
   
 To visualize the results:  
 - Select **visualize** at the top of the screen, and select **Create Visualization**  
