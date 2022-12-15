@@ -5,6 +5,8 @@ main:
     url: /dev_guide/
   - title: "Meet the Team"
     url: /team_bios/
+  - title: "Learn More" 
+    url: /learn-more/ 
 
 dev_guide-nav:
   - title: Overview
