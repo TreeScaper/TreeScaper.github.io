@@ -13,7 +13,7 @@ toc_label: Topics
   
 At their simplest level, networks are a system of interconnected datapoints. The datapoints that comprise a network can take the form of many different types of data, and are highly customizable to suit a number of different analytical frameworks. The defining feature of a networks is that all of the datapoints within the network are connected by pairwise vectors. These vectors contain information that links the two connected datapoints in some way. In general, networks are comprised of two components: **nodes** (or vertices), and **edges**. Nodes are the datapoints that we mentioned earlier, and edges are the vectors that connect two nodes.  
   
-<img src="https://i.imgur.com/32S1sDD.png"/>  
+<img src="https://i.imgur.com/32S1sDD.png" align="center"/>  
   
 Networks are useful for a number of different types of analyses, and they are highly informative in the way that they display show how different datapoints are connected. When analyzing and displaying phylogenomic data in cloudforest, this informativeness enables us to dive deeper into all sorts of facets of our data.  
 
