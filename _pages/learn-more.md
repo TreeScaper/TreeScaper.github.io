@@ -5,10 +5,11 @@ permalink: /learn-more/
 author_profile: false
 sidebar:
     - image: "assets/images/tree-network-cartoon.png"
+toc: true
 ---
 
 
-# This page serves as a hub for educational resources for all things related to CloudForest  
+# This page serves as a hub of educational resources for all things related to CloudForest  
   
 ## Networks    
 Cloudforest gives users a powerful way to visualize variation within sets of trees through the use of **networks**. Visit [this page]({{ site.baseurl }} {% link _pages/networks.md %}) to learn more about how networks work, and how CloudForest uses them to explore your data!
