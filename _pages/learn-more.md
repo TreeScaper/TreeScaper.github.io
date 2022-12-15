@@ -9,4 +9,5 @@ sidebar:
 
 ## This page serves as a hub for educational resources for all things related to CloudForest  
   
-[Test](/_pages/test.md/)
+  
+[Test]({{ site.baseurl }} {% link _pages/test.md %}
