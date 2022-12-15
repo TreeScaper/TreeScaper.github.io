@@ -115,7 +115,7 @@ defaults:
         overlay_image: /assets/images/unsplash-image-1.jpg
       layout: single
       author_profile: true
-      classes: wide
+      # classes: wide
 
 category_archive:
   type: liquid

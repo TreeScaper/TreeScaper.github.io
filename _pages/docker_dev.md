@@ -4,6 +4,7 @@ title: "Developer Guide"
 author_profile: false
 sidebar:
   nav: "dev_guide-nav"
+classes: wide
 ---
 ## CloudForest is comprised of three separate code units:
 

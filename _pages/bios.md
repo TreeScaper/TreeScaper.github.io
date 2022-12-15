@@ -2,6 +2,7 @@
 permalink: /team_bios/
 title: "Meet the Team"
 author_profile: true
+classes: wide
 ---
 
 # The CloudForest Team
