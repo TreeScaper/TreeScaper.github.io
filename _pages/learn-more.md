@@ -14,5 +14,5 @@ toc_label: Topics
 # This page serves as a hub of educational resources for all things related to CloudForest  
   
 ## Networks    
-Cloudforest gives users a powerful way to visualize variation within sets of trees through the use of **networks**. Visit [this page]({{ site.baseurl }} {% link _pages/networks.md %}) to learn more about how networks work, and how CloudForest uses them to explore your data!
+Cloudforest gives users a powerful way to visualize variation within sets of trees through the use of **networks**. Visit [this page]({{ site.baseurl }} {% link _pages/networks.md %}) to learn how networks work, and how CloudForest uses them to explore your data!
 
