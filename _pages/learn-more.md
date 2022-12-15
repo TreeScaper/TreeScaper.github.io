@@ -5,7 +5,9 @@ permalink: /learn-more/
 author_profile: false
 sidebar:
     - image: "assets/images/tree-network-cartoon.png"
+classes: 
 toc: true
+toc_label: Topics
 ---
 
 
