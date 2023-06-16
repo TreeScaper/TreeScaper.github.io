@@ -19,7 +19,7 @@ Installers are located in the following repository: https://github.com/TreeScape
 ###### (MacOS)
 1. Download **launchers/cloudforest_launchor_macos_v0.0.x.zip** from the workshop repository.
 2. Double click to extract into Downloads folder.
-3. Right-click CloudForest.command file and select Open.
+3. Right-click or control-click the CloudForest.command file and select Open.
 4. Select Open on warning screen.
 
 ###### (Windows)
@@ -34,4 +34,4 @@ CloudForest runs as a web server within Docker. One minute after the launch proc
 You may close the window that popped up when starting CloudForest.
 
 ##### 4. Update or Close CloudForest
-Because CloudForest runs in the background, separate commands are used to restart and close CloudForest, also located in the same folder as the command used to start CloudForest. Every time CloudForest is started or restarted with these files it will pull the latest updates, so the restart command may be used for this purpose.
+To stop or restart CloudForest, run the **StopCloudForest** and **RestartCloudForest** files (**StopCloudForest.command** and **RestartCloudForest.command** on MacOS). Every time CloudForest is started or restarted it will pull the latest updates, so you may run **RestartCloudForest** to update CloudForest as well.
