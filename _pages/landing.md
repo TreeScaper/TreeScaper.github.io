@@ -40,7 +40,7 @@ Huang W, Zhou G, Marchand M, Ash JR, Morris D, Van Dooren P, Brown JM, Gallivan 
 
 Wilgenbusch JC, Huang W, Gallivan KA. 2017. [Visualizing phylogenetic tree landscapes.](https://link.springer.com/article/10.1186/s12859-017-1479-1) *BMC Bioinformatics*. 18:85. [**Please cite for analyses involving NLDR visualizations of tree space.**]
 
-Brown JM, Mount GG, Gallivan KA, Wilgenbusch JC. 2021. [The diverse applications of tree set visualization and exploration.](https://ecoevorxiv.org/2d6ph/) In *Estimating Species Trees: Practical and Theoretical Aspects, 2nd edition.* Eds. L. Knowles and L. Kubatko. In Press. [**Please cite as general overview and potential applications of TreeScaper and CloudForest.**]
+Brown JM, Mount GG, Gallivan KA, Wilgenbusch JC. 2023. [Tree Set Visualization, Exploration, and Applications](https://press.princeton.edu/books/hardcover/9780691207599/species-tree-inference) In *Species Tree Inference: A Guide to Methods and Applications* Eds. L. Knowles and L. Kubatko. In Press. [**Please cite as general overview and potential applications of TreeScaper and CloudForest.**]
 
 
 # Funding
